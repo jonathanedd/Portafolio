@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/home.css";
+import "../styles/home.css";
 
 const Home = () => {
   return (
@@ -10,6 +10,10 @@ const Home = () => {
 
       <button className="download-cv">download CV</button>
       <button className="lets-talk ">Lets talk</button>
+
+      <div>
+       Here comes picture
+      </div>
     </div>
   );
 };

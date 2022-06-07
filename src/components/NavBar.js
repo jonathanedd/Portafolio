@@ -11,7 +11,7 @@ import {
   MenuItem,
   MenuItemLink,
   Wrapper,
-} from "./styles/Navbar.styles";
+} from "../styles/Navbar.styles";
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);

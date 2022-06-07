@@ -3,7 +3,7 @@ padding: 0;
 margin: 0;
 }
 .home-box{
-    background-color: #413C69;
+    /* background-color: #413C69; */
     padding-top: 50px;
     color: #A7C5EB;
     height: 100vh;
@@ -84,3 +84,5 @@ height: 30px;
 width: 90px;
 
   }
+
+  
