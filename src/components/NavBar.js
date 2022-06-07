@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./styles/navBar.css";
 import { FaAlignJustify } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
@@ -12,7 +11,7 @@ import {
   MenuItem,
   MenuItemLink,
   Wrapper,
-} from "./Burguer";
+} from "./styles/Navbar.styles";
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -27,8 +26,10 @@ const NavBar = () => {
           <Menu open={showMenu}>
             <MenuItem>
               <MenuItemLink>
-                <FaHome />
-                Home
+                <div>
+                  <FaHome />
+                  Home
+                </div>
               </MenuItemLink>
             </MenuItem>
 
