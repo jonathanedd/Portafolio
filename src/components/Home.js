@@ -6,12 +6,10 @@ const Home = () => {
     <div className="home-box">
       <p className="hi-animation">Hello, I'm</p>
       <h1 className="h2-style">Jhonatan</h1>
-      <p className="p-style">full stack developer</p>
+      <p className="p-style">Web developer</p>
 
       <button className="download-cv">download CV</button>
       <button className="lets-talk ">Lets talk</button>
-
-      
     </div>
   );
 };
