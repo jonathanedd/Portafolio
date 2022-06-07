@@ -1,0 +1,82 @@
+.home-box{
+    background-color: #413C69;
+    
+    color: #A7C5EB;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    
+    
+    
+}
+
+.hi-animation{
+    animation-name: hi-Animation;
+    animation-duration: 5s;
+    font-size: 1rem;
+    text-shadow: 0px 5px 5px rgb(0, 0, 0 );
+    
+  }
+  @keyframes hi-Animation{
+    20%
+    {
+      color: #A7C5EB;
+      text-shadow: none;
+    }
+    0% 
+    {
+      color: transparent;
+      
+    }
+  }
+  
+  .h2-style {
+    animation-name: name;
+    animation-duration: 6s;
+    font-size: 1.5rem;
+    color: #A7C5EB;
+    
+  
+  }
+
+  @keyframes name{
+    0%
+    {
+      color: #A7C5EB;
+      text-shadow: none;
+    }
+    0% 
+    {
+      color: transparent;
+      
+    }
+  }
+
+
+  
+  .p-style{
+    font-size: 1rem;
+    color: #A7C5EB;
+    
+    
+  }
+
+
+  .download-cv{
+      background-color: #A7C5EB;
+      border: none;
+      border-radius: 5px;
+      height: 30px;
+      color: #000;
+      margin: 10px;
+  }
+
+.lets-talk{
+color:#A7C5EB ;
+background-color: transparent;
+border-color: #A7C5EB;
+border-radius: 5px;
+height: 30px;
+width: 90px;
+
+  }
