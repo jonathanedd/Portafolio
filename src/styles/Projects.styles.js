@@ -21,7 +21,7 @@ export const Tittle = styled.h1`
 `;
 
 export const Cards = styled.div`
-  color: #a7c5eb;
+  color: #000;
   display: flex;
   margin-left: 80px;
   margin-top: 50px;
@@ -34,7 +34,7 @@ export const Cards = styled.div`
   div {
     width: 120px;
     height: 120px;
-    background-color: #4a47a3;
+    background-color: #a7c5eb;
     border-radius: 10px;
     box-shadow: 0px 5px 5px rgb(0, 0, 0);
     font-size: 0.8rem;
@@ -46,6 +46,9 @@ export const Cards = styled.div`
     }
   }
   p {
+    color: #000;
+  }
+  h2 {
     color: #000;
   }
 `;
