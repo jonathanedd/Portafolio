@@ -37,8 +37,9 @@ margin: 0;
   .h2-style {
     animation-name: name;
     animation-duration: 6s;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #A7C5EB;
+    font-weight: 900;
     
   
   }
