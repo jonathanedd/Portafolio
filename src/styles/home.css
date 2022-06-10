@@ -14,6 +14,12 @@ margin: 0;
     
 }
 
+@media only screen and (max-width: 600px){
+  .home-box{
+    height: 80vh;
+  }
+}
+
 .hi-animation{
     animation-name: hi-Animation;
     animation-duration: 5s;
@@ -120,5 +126,8 @@ width: 90px;
   @media only screen and (max-width: 600px){
     .profile-pic{
       width: 200px;
+      margin-top: 60px ;
+      padding-bottom: 0;
+      margin-bottom: 0;
     }  
   }

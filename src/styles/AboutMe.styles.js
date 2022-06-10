@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* background-color: #7189bf; */
+  background-color: #7189bf;
 
   width: 85%;
   /* display: flex; */
@@ -14,10 +14,11 @@ export const Container = styled.div`
 export const Tittle = styled.h1`
   font-size: 1.5rem;
   color: #a7c5eb;
-  padding-top: 100px;
+  padding-top: 60px;
 
   @media only screen and (max-width: 600px) {
-    margin-bottom: 20px;
+    padding-top: 0;
+    margin-bottom: 50px;
   }
 `;
 
@@ -77,5 +78,6 @@ export const Paragraph = styled.p`
   @media only screen and (max-width: 600px) {
     width: 350px;
     margin-left: 0;
+    margin-top: 30px;
   }
 `;
