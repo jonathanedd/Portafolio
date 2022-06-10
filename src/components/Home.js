@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.css";
+import profile from "../styles/images/profile2.jpg";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <button className="lets-talk ">Lets talk</button>
 
       <div>
-       Here comes picture
+        <img className="profile-pic" src={profile} alt="" />
       </div>
     </div>
   );

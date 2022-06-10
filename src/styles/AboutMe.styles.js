@@ -51,6 +51,10 @@ export const Cards = styled.div`
   h2 {
     color: #000;
   }
+  div:hover {
+    background-color: #00B7C2;
+    transform: translateY(-8%);
+  }
 `;
 
 export const Paragraph = styled.p`

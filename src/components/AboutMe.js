@@ -1,7 +1,7 @@
 import React from "react";
 import { IconContext } from "react-icons";
 import { FaMedal, FaProjectDiagram, FaNetworkWired } from "react-icons/fa";
-import { Cards, Container, Paragraph, Tittle } from "../styles/Projects.styles";
+import { Cards, Container, Paragraph, Tittle } from "../styles/AboutMe.styles";
 
 const Projects = () => {
   return (
