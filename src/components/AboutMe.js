@@ -1,7 +1,13 @@
 import React from "react";
 import { IconContext } from "react-icons";
 import { FaMedal, FaProjectDiagram, FaNetworkWired } from "react-icons/fa";
-import { Cards, Container, Paragraph, Tittle } from "../styles/AboutMe.styles";
+import {
+  Cards,
+  Container,
+  Galery,
+  Paragraph,
+  Tittle,
+} from "../styles/AboutMe.styles";
 
 const Projects = () => {
   return (
@@ -28,22 +34,6 @@ const Projects = () => {
             </div>
           </Cards>
 
-          {/* <Cards>
-            <div>
-              <h2>Projects</h2>
-              <FaProjectDiagram />
-              <p>10+ Completed</p>
-            </div>
-          </Cards> */}
-
-          {/* <Cards>
-            <div>
-              <h2>Experience</h2>
-              <FaMedal />
-              <p>1+ Years</p>
-            </div>
-          </Cards> */}
-
           <Paragraph>
             <p>
               I am a full stack software developer with experience in React.js
@@ -53,6 +43,8 @@ const Projects = () => {
               time I like to swim, and create design
             </p>
           </Paragraph>
+
+          <Galery>Holi</Galery>
         </IconContext.Provider>
       </Container>
     </>

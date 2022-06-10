@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* background-color: #7189bf; */
+  background-color: #7189bf;
 
   width: 85%;
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin: auto;
   height: 100vh;
   border-radius: 10px;
@@ -25,12 +26,14 @@ export const Tittle = styled.h1`
 export const Cards = styled.div`
   color: #393e46;
   display: flex;
-  margin-left: 80px;
-  margin-top: 100px;
+  width: fit-content;
+  margin-left: 90px;
+  margin-top: 130px;
 
   @media only screen and (max-width: 600px) {
-    margin: 0;
-    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
   }
 
   div {
@@ -71,13 +74,33 @@ export const Paragraph = styled.p`
   width: 400px;
   height: min-content;
   color: #a7c5eb;
-  margin-left: 100px;
+  margin-left: 110px;
   text-align: start;
   margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
 
   @media only screen and (max-width: 600px) {
-    width: 350px;
-    margin-left: 0;
-    margin-top: 30px;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    padding: 0;
+  }
+`;
+
+export const Galery = styled.div`
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin-top: 200px;
+
+  @media only screen and (max-width: 600px) {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 `;
