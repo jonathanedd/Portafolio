@@ -1,34 +1,23 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* background-color: #7189bf;
-
-  width: 85%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  margin: auto;
-  height: 90vh;
-  border-radius: 10px; */
-
   .about_container {
     display: grid;
-    grid-template-columns: 50% 20%;
+    grid-template-columns: 55% 10%;
     grid-template-rows: 50% 40%;
     gap: 15%;
     margin: auto;
     width: 80%;
-
     height: 100vh;
     border-radius: 2rem;
     padding-top: 100px;
-    background: linear-gradient(
-      45deg,
-      transparent,
-      var(--color-primary),
-      transparent
-    );
     place-items: center;
+
+    @media only screen and (max-width: 600px) {
+      display: grid;
+      grid-template-columns: 40%;
+      grid-template-rows: 30%;
+    }
   }
 `;
 
@@ -41,7 +30,6 @@ export const Tittle = styled.h1`
 
   @media only screen and (max-width: 600px) {
     padding-top: 0;
-    margin-bottom: 50px;
   }
 `;
 
@@ -53,21 +41,22 @@ export const Cards = styled.div`
 
   @media only screen and (max-width: 600px) {
     margin: auto;
-    margin-top: 10px;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15%;
   }
 
   div {
-    background-color: white;
+    background-color: #a7c5eb;
     border-radius: 1rem;
     width: 130px;
     height: 130px;
     text-align: center;
-    transform: rotate(10deg);
 
     @media only screen and (max-width: 600px) {
-      margin: 5px;
-      width: 150px;
+      width: 130px;
+      height: 130px;
+      margin-left: 10px;
     }
   }
   p {
@@ -78,12 +67,14 @@ export const Cards = styled.div`
     padding-top: 20px;
   }
   div:hover {
-    background-color: blue;
+    background-color: #1f4690;
+    border: solid 0.5px;
     transform: translateY(-8%);
     color: #a7c5eb;
-    transform: rotate(0deg);
+    transform: rotate(10deg);
     cursor: pointer;
     cursor: hand;
+    box-shadow: 0px 3px 3px rgb(0, 0, 0);
 
     h2 {
       color: #a7c5eb;
@@ -95,37 +86,43 @@ export const Cards = styled.div`
 `;
 
 export const Paragraph = styled.p`
-  display: grid;
-  grid-template-columns: auto;
-
-  margin-bottom: 500px;
+  margin-bottom: 550px;
   p {
     color: aliceblue;
     text-align: left;
-    width: 400px;
+    width: 450px;
+    @media only screen and (max-width: 600px) {
+      width: 340px;
+      margin: 0;
+    }
   }
 
   @media only screen and (max-width: 600px) {
     width: 100%;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 0;
     padding: 0;
   }
 `;
 
 export const Galery = styled.div`
   background-color: blue;
-  width: 400px;
-  height: 400px;
-margin-top: 160px;
+  width: 350px;
+  height: 350px;
+  margin-top: 160px;
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
+  transform: rotate(45deg);
+  box-shadow: 0px 3px 3px rgb(0, 0, 0);
 
   img {
-    width: 400px;
-    background-position: 2;
-    
+    width: 350px;
+
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      display: grid;
+      
+    }
   }
 
   :hover {
@@ -133,9 +130,9 @@ margin-top: 160px;
   }
 
   @media only screen and (max-width: 600px) {
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
     margin: auto;
-    display: flex;
+    margin-left: 25px;
   }
 `;

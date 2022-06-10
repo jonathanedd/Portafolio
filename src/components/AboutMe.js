@@ -9,7 +9,7 @@ import {
   Tittle,
 } from "../styles/AboutMe.styles";
 
-import aboutImg from "../styles/images/about-img.jpg";
+import aboutImg from "../styles/images/about-me.jpg";
 
 const Projects = () => {
   return (
