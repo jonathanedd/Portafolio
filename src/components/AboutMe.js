@@ -46,11 +46,11 @@ const Projects = () => {
 
           <Paragraph>
             <p>
-              I am a full stack software developer with experience in React and
-              Node. I am passionate about continous learning, meeting new people
-              and cultures, I am very committed and detailed orientated to solve
-              problems. In my free times I like to read, swim, create and design
-              illustrations.
+              I am a full stack software developer with experience in React.js
+              and Node.js, I am passionate about continous learning, I am very
+              committed and detailed orientated to solve problems using
+              technology. I like to meet new people and cultures. In my free
+              time I like to swim, and create design
             </p>
           </Paragraph>
         </IconContext.Provider>

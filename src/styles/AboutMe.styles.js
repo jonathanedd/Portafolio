@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* background-color: #3c415c; */
+  /* background-color: #7189bf; */
+
   width: 85%;
   /* display: flex; */
   /* flex-direction: column; */
@@ -13,7 +14,7 @@ export const Container = styled.div`
 export const Tittle = styled.h1`
   font-size: 1.5rem;
   color: #a7c5eb;
-  padding-top: 20px;
+  padding-top: 100px;
 
   @media only screen and (max-width: 600px) {
     margin-bottom: 20px;
@@ -21,10 +22,10 @@ export const Tittle = styled.h1`
 `;
 
 export const Cards = styled.div`
-  color: #000;
+  color: #393e46;
   display: flex;
   margin-left: 80px;
-  margin-top: 50px;
+  margin-top: 100px;
 
   @media only screen and (max-width: 600px) {
     margin: 0;
@@ -46,14 +47,22 @@ export const Cards = styled.div`
     }
   }
   p {
-    color: #000;
+    color: #0e49b5;
   }
   h2 {
-    color: #000;
+    color: #393e46;
+    padding-top: 15px;
   }
   div:hover {
-    background-color: #00B7C2;
+    background-color: #0e49b5;
     transform: translateY(-8%);
+    color: #a7c5eb;
+    h2 {
+      color: #a7c5eb;
+    }
+    p {
+      color: #a7c5eb;
+    }
   }
 `;
 
