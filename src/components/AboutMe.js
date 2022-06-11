@@ -2,7 +2,6 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { FaMedal, FaProjectDiagram, FaNetworkWired } from "react-icons/fa";
 import {
-  AboutBtn,
   Cards,
   Container,
   Galery,
@@ -53,7 +52,7 @@ const Projects = () => {
               </p>
 
               <button>
-                <a href="">Lets talk</a>
+                {/* <a href="#">Lets talk</a> */}
               </button>
             </Paragraph>
           </div>
