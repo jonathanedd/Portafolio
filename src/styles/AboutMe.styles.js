@@ -149,8 +149,9 @@ export const Galery = styled.div`
     @media only screen and (max-width: 600px) {
       width: 100%;
       display: grid;
+      border-radius: 2rem;
     }
-    &:hover{
+    &:hover {
       filter: grayscale(0%);
       transition: all 2s;
     }
