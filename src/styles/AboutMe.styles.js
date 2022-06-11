@@ -4,7 +4,7 @@ export const Container = styled.div`
   .about_container {
     display: grid;
     grid-template-columns: 55% 10%;
-    grid-template-rows: 50% 40%;
+    grid-template-rows: 50% 43%;
     gap: 15%;
     margin: auto;
     width: 80%;
@@ -67,11 +67,11 @@ export const Cards = styled.div`
     padding-top: 20px;
   }
   div:hover {
-    background-color: #1f4690;
+    background-color: transparent;
     border: solid 0.5px;
-    transform: translateY(-8%);
+
     color: #a7c5eb;
-    transform: rotate(10deg);
+    transform: translateY(-5%);
     cursor: pointer;
     cursor: hand;
     box-shadow: 0px 3px 3px rgb(0, 0, 0);
@@ -97,6 +97,29 @@ export const Paragraph = styled.p`
     }
   }
 
+  button {
+    background-color: #a7c5eb;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    right: 180px;
+    top: 35px;
+    border: none;
+
+    &:hover {
+      box-shadow: 0px 3px 3px rgb(0, 0, 0);
+      cursor: pointer;
+      cursor: hand;
+      transform: translateY(-8%);
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
   @media only screen and (max-width: 600px) {
     width: 100%;
     margin: auto;
@@ -106,27 +129,31 @@ export const Paragraph = styled.p`
 `;
 
 export const Galery = styled.div`
-  background-color: blue;
   width: 350px;
   height: 350px;
   margin-top: 160px;
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(45deg);
-  box-shadow: 0px 3px 3px rgb(0, 0, 0);
+  transition: all 1s;
+  box-shadow: 0px 5px 5px rgb(0, 0, 0.3);
+
+  &:hover {
+    transform: translateY(-8%);
+  }
 
   img {
     width: 350px;
+    filter: grayscale(100%);
+    transition: all 2s;
 
     @media only screen and (max-width: 600px) {
       width: 100%;
       display: grid;
-      
     }
-  }
-
-  :hover {
-    transform: rotate(0deg);
+    &:hover{
+      filter: grayscale(0%);
+      transition: all 2s;
+    }
   }
 
   @media only screen and (max-width: 600px) {

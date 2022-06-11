@@ -2,6 +2,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { FaMedal, FaProjectDiagram, FaNetworkWired } from "react-icons/fa";
 import {
+  AboutBtn,
   Cards,
   Container,
   Galery,
@@ -50,6 +51,10 @@ const Projects = () => {
                 technology. I like to meet new people and cultures. In my free
                 time I like to swim, and create design
               </p>
+
+              <button>
+                <a href="">Lets talk</a>
+              </button>
             </Paragraph>
           </div>
         </IconContext.Provider>
