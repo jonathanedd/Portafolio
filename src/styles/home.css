@@ -128,12 +128,12 @@ width: 90px;
     width: 250px;
     margin-top: 50px;
     filter: grayscale(100%);
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .profile-pic:hover{
   filter: grayscale(0%);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 

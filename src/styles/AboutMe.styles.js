@@ -138,13 +138,13 @@ export const Galery = styled.div`
   box-shadow: 0px 5px 5px rgb(0, 0, 0.3);
 
   &:hover {
-    transform: translateY(-8%);
+    transform: translateY(-5%);
   }
 
   img {
     width: 350px;
     filter: grayscale(100%);
-    transition: all 2s;
+    transition: all 0.8s;
 
     @media only screen and (max-width: 600px) {
       width: 100%;
@@ -153,7 +153,7 @@ export const Galery = styled.div`
     }
     &:hover {
       filter: grayscale(0%);
-      transition: all 2s;
+      transition: all 0.8s;
     }
   }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/nav.css";
+import "../navbar/nav.css";
 
 import {
   FaHome,
@@ -34,7 +34,7 @@ const Nav = () => {
         <FaMedal />
       </a>
 
-      <a href="#experience">
+      <a href="#contact">
         <MdEmail />
       </a>
     </nav>

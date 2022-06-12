@@ -5,7 +5,7 @@ import cv from "../assets/cv.pdf";
 
 const Home = () => {
   return (
-    <div className="home-box">
+    <section className="home-box" id='home'>
       <p className="hi-animation">Hello, I'm</p>
       <h1 className="h2-style">Jhonatan</h1>
       <p className="p-style">Web developer & designer </p>
@@ -20,7 +20,7 @@ const Home = () => {
       <div>
         <img className="profile-pic" src={profile} alt="" />
       </div>
-    </div>
+    </section>
   );
 };
 
