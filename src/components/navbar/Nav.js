@@ -17,11 +17,19 @@ const Nav = () => {
 
   return (
     <nav>
-      <a className={activeNav === "#" ? "active" : ""} href="#home">
+      <a
+        onClick={() => setActiveNav("#")}
+        className={activeNav === "#" ? "active" : ""}
+        href="#home"
+      >
         <FaHome />
       </a>
 
-      <a href="#about">
+      <a
+        onClick={() => setActiveNav("#about")}
+        className={activeNav === "#about" ? "active" : ""}
+        href="#about"
+      >
         <FaUser />
       </a>
 
