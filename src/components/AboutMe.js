@@ -20,7 +20,7 @@ const Projects = () => {
           <IconContext.Provider value={{ style: { fontSize: "1.8em" } }}>
             <div className="about_container">
               <Cards>
-                <div>
+                <div >
                   <h2>Skills</h2>
                   <FaNetworkWired />
                   <p>+5 Tecnologies</p>

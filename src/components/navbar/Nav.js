@@ -1,5 +1,6 @@
 import React from "react";
 import "../navbar/nav.css";
+import { useState } from "react";
 
 import {
   FaHome,
@@ -12,9 +13,11 @@ import {
 import { MdEmail } from "react-icons/md";
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState("#");
+
   return (
     <nav>
-      <a href="#home">
+      <a className={activeNav === "#" ? "active" : ""} href="#home">
         <FaHome />
       </a>
 

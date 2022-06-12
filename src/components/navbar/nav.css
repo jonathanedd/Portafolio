@@ -10,8 +10,25 @@ nav{
     bottom: 2rem;
     display: flex;
     gap: 1rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
 }
 
 nav a{
+    color: aliceblue;
+    background: transparent;
+    padding: 0.8rem;
+    border-radius: 50%;
+    display: flex;
+    font-size: 1.1rem;
+}
+
+
+nav a:hover{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+nav a.active{
+    background: blue;
     color: aliceblue;
 }
