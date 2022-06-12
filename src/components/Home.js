@@ -5,7 +5,7 @@ import cv from "../assets/cv.pdf";
 
 const Home = () => {
   return (
-    <section className="home-box" id='home'>
+    <section className="home-box" id="home">
       <p className="hi-animation">Hello, I'm</p>
       <h1 className="h2-style">Jhonatan</h1>
       <p className="p-style">Web developer & designer </p>

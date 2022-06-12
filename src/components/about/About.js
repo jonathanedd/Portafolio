@@ -6,14 +6,14 @@ import { FaMedal, FaProjectDiagram, FaNetworkWired } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about">
+    <section className="section" id="about">
       <h5>Get to know</h5>
       <h2>About me</h2>
 
       <div className="container about-container">
         <div className="about-me">
           <div className="about-me-image">
-            <img width='300px' src={image} alt="about image" />
+            <img width="300px" src={image} alt="about image" />
           </div>
         </div>
 
@@ -45,9 +45,9 @@ const About = () => {
               time I like to swim, and create design
             </p>
 
-            <a href="#contact" className="btn btn-primary">
+            {/* <a href="#contact" className="btn btn-primary">
               Lets talk
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
