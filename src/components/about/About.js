@@ -1,6 +1,6 @@
 import React from "react";
 import "../about/about.css";
-import image from "../../styles/images/about-me.jpg";
+import imageMe from "../../styles/images/about-me.jpg";
 
 import { FaMedal, FaProjectDiagram, FaNetworkWired } from "react-icons/fa";
 
@@ -12,8 +12,8 @@ const About = () => {
 
       <div className="container about-container">
         <div className="about-me">
-          <div className="about-me-image">
-            <img width="300px" src={image} alt="about image" />
+          <div className="about-me-imgage">
+            <img width="300px" src={imageMe} alt="about Img" />
           </div>
         </div>
 
