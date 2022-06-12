@@ -8,6 +8,7 @@ import Projects from "./components/projects/Projects";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import About from "./components/about/About";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <NavBar /> */}
 
       <Home />
-      <AboutMe />
+      <About />
+      {/* <AboutMe /> */}
 
       <Skills />
       <Projects />

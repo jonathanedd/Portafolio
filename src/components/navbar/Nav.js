@@ -33,19 +33,35 @@ const Nav = () => {
         <FaUser />
       </a>
 
-      <a href="#skills">
+      <a
+        onClick={() => setActiveNav("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
+        href="#skills"
+      >
         <FaNetworkWired />
       </a>
 
-      <a href="#projects">
+      <a
+        onClick={() => setActiveNav("#projects")}
+        className={activeNav === "#projects" ? "active" : ""}
+        href="#projects"
+      >
         <FaProjectDiagram />
       </a>
 
-      <a href="#experience">
+      <a
+        onClick={() => setActiveNav("#experience")}
+        className={activeNav === "#experience" ? "active" : ""}
+        href="#experience"
+      >
         <FaMedal />
       </a>
 
-      <a href="#contact">
+      <a
+        onClick={() => setActiveNav("#contact")}
+        className={activeNav === "#contact" ? "active" : ""}
+        href="#contact"
+      >
         <MdEmail />
       </a>
     </nav>
