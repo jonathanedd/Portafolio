@@ -1,7 +1,7 @@
 import "./App.css";
 // import NavBar from "./components/NavBar";
 import Home from "./components/Home";
-import AboutMe from "./components/AboutMe";
+// import AboutMe from "./components/AboutMe";
 import Nav from "./components/navbar/Nav";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";

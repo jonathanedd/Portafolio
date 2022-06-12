@@ -36,19 +36,18 @@ const About = () => {
               <h5>Experience</h5>
               <small>1+ Year experience</small>
             </article>
-
-            <p>
-              I am a full stack software developer with experience in React.js
-              and Node.js, I am passionate about continous learning, I am very
-              committed and detailed orientated to solve problems using
-              technology. I like to meet new people and cultures. In my free
-              time I like to swim, and create design
-            </p>
-
-            {/* <a href="#contact" className="btn btn-primary">
-              Lets talk
-            </a> */}
           </div>
+          <p>
+            I am a full stack software developer with experience in React.js and
+            Node.js, I am passionate about continous learning, I am very
+            committed and detailed orientated to solve problems using
+            technology. I like to meet new people and cultures. In my free time
+            I like to swim, and create design
+          </p>
+
+          <a href="#contact" className="btn btn-primary">
+            Lets talk
+          </a>
         </div>
       </div>
     </section>
