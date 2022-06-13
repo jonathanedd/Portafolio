@@ -1,11 +1,17 @@
 #skills{
     height: 100vh;
+    width: 80%;
+    margin: auto;
 }
+
+
+
 
 .container-skills{
     margin: 0 auto;
     overflow: hidden;
-    
+    width: 30%;
+    border: 1px solid;
     
 }
 
@@ -19,6 +25,7 @@
     height: 30rem;
     max-width: 40rem;
     padding: 2rem;
+    
 }
 
 .item img{

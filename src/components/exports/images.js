@@ -7,3 +7,5 @@ import node from "../../styles/images/node.png";
 const images = [javascript, html, css, react, node]
 
 export default  images;
+
+
