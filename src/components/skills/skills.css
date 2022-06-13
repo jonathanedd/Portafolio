@@ -1,18 +1,45 @@
 #skills{
     height: 100vh;
-    width: 80%;
-    margin: auto;
+    width:100%;
+    
     
 }
 
+#skills h5 {
+    color: #000;
+    
+    
+}
 
+#skills h2 {
+    color:#A7C5EB;
+    padding-bottom: 2rem;
+}
+
+
+.section-skills{
+    /* background-color: aqua; */
+    display: grid;  
+    grid-template-columns: repeat(1, 3fr);
+    grid-template-columns: 10% 80% 10%;
+    place-items: center;
+    border: black 3px;
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    .section-skills{
+        width: 100%;
+    }
+}
 
 
 .container-skills{
     margin: 0 auto;
     overflow: hidden;
     width: 30%;
-    /* border: 1px solid; */
+    
     border-radius: 2rem;
     /* background-color: black; */
     box-shadow: 0px 5px 5px rgb(0, 0, 0.3);
@@ -54,6 +81,17 @@
     }
 }
 
-.btn-right{
-    color: #A7C5EB;
+.btn-right {
+    font-size: 3rem;
+    color: brown;
+    
+    
 }
+
+
+.btn-left{
+    font-size: 3rem;
+    
+    
+}
+
