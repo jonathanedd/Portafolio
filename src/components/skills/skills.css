@@ -2,3 +2,26 @@
     height: 100vh;
 }
 
+.container-skills{
+    margin: 0 auto;
+    overflow: hidden;
+    
+    
+}
+
+.slider{
+    display: flex;
+    cursor: grap;
+
+}
+
+.item{
+    height: 30rem;
+    max-width: 40rem;
+    padding: 2rem;
+}
+
+.item img{
+    height: 60%;
+    pointer-events: none;
+}
