@@ -4,8 +4,27 @@ import css from "../../styles/images/css.png";
 import react from "../../styles/images/react.png";
 import node from "../../styles/images/node.png";
 
-const images = [javascript, html, css, react, node]
+const images = [
+  {
+    name: "Javascript",
+    technology: javascript,
+  },
+  {
+    name: "Html",
+    technology: html,
+  },
+  {
+    name: "Css",
+    technology: css,
+  },
+  {
+    name: "React JS",
+    technology: react,
+  },
+  {
+    name: "Node JS",
+    technology: node,
+  },
+];
 
-export default  images;
-
-
+export default images;
