@@ -66,10 +66,14 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
-
-
-    
 }
+
+
+
+
+
+
+
 
 .about-card:hover{
     transform: translateY(-5%);
@@ -83,10 +87,12 @@
 .about-icon{
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    
 }
 
 .about-card h5{
     font-size: 1rem;
+    z-index: 10;
 }
 
 .about-card small{

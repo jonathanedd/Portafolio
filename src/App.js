@@ -13,7 +13,6 @@ import About from "./components/about/About";
 function App() {
   return (
     <div className="App">
-      <div className="background-box"></div>
       <Nav />
       {/* <NavBar /> */}
 

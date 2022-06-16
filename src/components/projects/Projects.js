@@ -7,13 +7,19 @@ import crud from "../../styles/images/crud.png";
 import weather from "../../styles/images/weatherapp.png";
 import quotes from "../../styles/images/quotes.png";
 
+import { motion } from "framer-motion";
+
 const Projects = () => {
   return (
     <section id="projects">
       <h1 className="title">Front End</h1>
       <div className="projects-container">
         <div className="cards-projects">
-          <div className="card-item">
+          <motion.div
+            animate={{ x: [0, 10, 0] }}
+            transition={{ ease: "easeOut", duration: 10, repeat: 100 }}
+            className="card-item"
+          >
             <img src={ecommerce} alt="" />
             <h2>Ecommerce App</h2>
 
@@ -23,9 +29,13 @@ const Projects = () => {
               with Axios cosuming API and Redux
             </p>
             <a href="https://e-commerce-jo.netlify.app">Go to project</a>
-          </div>
+          </motion.div>
 
-          <div className="card-item">
+          <motion.div
+            animate={{ y: [0, 15, 0] }}
+            transition={{ ease: "easeOut", duration: 10, repeat: 100 }}
+            className="card-item"
+          >
             <img src={pokedex} alt="" />
             <h2>Pokedex App</h2>
 
@@ -35,9 +45,13 @@ const Projects = () => {
               hooks. This is Front end develop
             </p>
             <a href="https://pokedex-app-jo.netlify.app">Go to project</a>
-          </div>
+          </motion.div>
 
-          <div className="card-item">
+          <motion.div
+            animate={{ x: [0, 16, 0] }}
+            transition={{ ease: "easeOut", duration: 10, repeat: 100 }}
+            className="card-item"
+          >
             <img src={rick} alt="" />
             <h2>Rick and Morty App</h2>
 
@@ -49,7 +63,7 @@ const Projects = () => {
             <a href="https://rick-and-morty-app-jo.netlify.app">
               Go to project
             </a>
-          </div>
+          </motion.div>
 
           <div className="card-item">
             <img src={crud} alt="" />

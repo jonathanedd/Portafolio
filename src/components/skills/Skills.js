@@ -15,6 +15,8 @@ const Skills = () => {
             className="slider"
             drag="x"
             dragConstraints={{ right: 0, left: -1700.19 }}
+            animate={{ x: [0, -1700, 0] }}
+            transition={{ease:'easeIn', duration: 25, repeat: 100}}
           >
             {images.map((image) => (
               <motion.div className="item">
