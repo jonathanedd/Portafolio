@@ -35,8 +35,8 @@
     overflow: hidden;
     width: 30%;
     border-radius: 2rem;
-    background-color: #413c6979;
-    
+    border: solid 0.1px #A7C5EB;
+    background-color: #2e0249a4;
 
 }
 @media only screen and (max-width: 600px){

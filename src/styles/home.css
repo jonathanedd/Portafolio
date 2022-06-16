@@ -74,28 +74,32 @@ margin: 0;
 
 
   .download-cv{
-      background-color: #A7C5EB;
-      border: none;
+    background-color: #2e0249ad;
+    
+    border: solid 0.1px #A7C5EB;
       border-radius: 5px;
       height: 30px;
       width: 90px;
-      color: #000;
-      margin: 10px;
+      
+      margin: 15px;
       
   }
 
+  
+
   .download-cv a {
     text-decoration: none;
-    color: #000;
+    color: #A7C5EB;
   }
 
   .download-cv a:hover{
     color: #A7C5EB;
+    
   }
 
   .download-cv:hover{
     transform: translateY(-8%);
-    background-color:#0E49B5 ;
+    background-color:transparent ;
     cursor: pointer;
     cursor: hand;
     
@@ -115,6 +119,7 @@ width: 90px;
   .lets-talk:hover{
     cursor: pointer;
     cursor:hand;
+    background-color: #2e024983;
     transform: translateY(-8%);
     box-shadow: 0px 3px 3px rgb(0, 0, 0 );
   }

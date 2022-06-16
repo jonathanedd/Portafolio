@@ -56,11 +56,13 @@
     gap: 1.5rem;
     
     
+    
 }
 
 .about-card{
-    background: #a7c5eb ;
-    border: 1px solid transparent;
+    color: #a7c5eb ;
+    background-color: #2e0249a4;
+    border: solid 0.5px #A7C5EB;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
@@ -104,8 +106,9 @@
     width: 5rem;
     height: 2rem;
     border-radius: 0.5rem;
-    border: none;
-    background: #a7c5eb;
+    border: solid 0.1px #A7C5EB;
+    color: #a7c5eb;
+    background-color: #2e0249b6;
     transition: all ease 0.5s;
     padding-top: 0.5rem;
 }
@@ -120,7 +123,7 @@
 
 .about-content a{
     text-decoration: none;
-    color: #000;
+    
     
     }
 

@@ -10,23 +10,25 @@ import quotes from "../../styles/images/quotes.png";
 const Projects = () => {
   return (
     <section id="projects">
-      <h1>Front End</h1>
+      <h1 className="title">Front End</h1>
       <div className="projects-container">
         <div className="cards-projects">
           <div className="card-item">
-            <h2>Ecommerce App</h2>
             <img src={ecommerce} alt="" />
+            <h2>Ecommerce App</h2>
+
             <h5>Reaact JS project</h5>
             <p>
               This is a project made with React JS, Pure front End. Implemented
               with Axios cosuming API and Redux
             </p>
-            <a href="https://e-commerce-jo.netlify.app">See</a>
+            <a href="https://e-commerce-jo.netlify.app">Go to project</a>
           </div>
 
           <div className="card-item">
-            <h2>Pokedex App</h2>
             <img src={pokedex} alt="" />
+            <h2>Pokedex App</h2>
+
             <h5>React JS project</h5>
             <p>
               This is a Pokemon API project using React, Implemented with react
@@ -36,19 +38,22 @@ const Projects = () => {
           </div>
 
           <div className="card-item">
-            <h2>Rick and Morty App</h2>
             <img src={rick} alt="" />
+            <h2>Rick and Morty App</h2>
+
             <h5>React JS project</h5>
             <p>
               This is a Pokemon API project using React, Implemented with react
               hooks. This is Front end develop
             </p>
-            <a href="https://rick-and-morty-app-jo.netlify.app">Go to project</a>
+            <a href="https://rick-and-morty-app-jo.netlify.app">
+              Go to project
+            </a>
           </div>
 
           <div className="card-item">
-            <h2>Crud</h2>
             <img src={crud} alt="" />
+            <h2>Crud</h2>
             <h5>React JS project</h5>
             <p>
               This is a Pokemon API project using React, Implemented with react
@@ -58,8 +63,8 @@ const Projects = () => {
           </div>
 
           <div className="card-item">
-            <h2>Weather App</h2>
             <img src={weather} alt="" />
+            <h2>Weather App</h2>
             <h5>React JS project</h5>
             <p>
               This is a Pokemon API project using React, Implemented with react
@@ -69,14 +74,16 @@ const Projects = () => {
           </div>
 
           <div className="card-item">
-            <h2>Quotes</h2>
             <img src={quotes} alt="" />
+            <h2>Quotes</h2>
             <h5>React JS project</h5>
             <p>
               This is a Pokemon API project using React, Implemented with react
               hooks. This is Front end develop
             </p>
-            <a href="https://quote-random-jonathan-ordonez.netlify.app">Go to project</a>
+            <a href="https://quote-random-jonathan-ordonez.netlify.app">
+              Go to project
+            </a>
           </div>
         </div>
       </div>
