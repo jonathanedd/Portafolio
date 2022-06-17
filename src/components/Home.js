@@ -10,11 +10,10 @@ const Home = () => {
       <h1 className="h2-style">Jhonatan</h1>
       <p className="p-style">Web developer & designer </p>
 
-      <button className="download-cv">
-        <a href={cv} download>
-          download CV
-        </a>
-      </button>
+      <a className="download-cv" href={cv} download>
+        download CV
+      </a>
+
       <button className="lets-talk ">Lets talk</button>
 
       <div>

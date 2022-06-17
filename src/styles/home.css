@@ -4,8 +4,8 @@ margin: 0;
 }
 .home-box{
     /* background-color: #413C69; */
-    padding-top: 50px;
-    color: #A7C5EB;
+    padding-top: 1.5rem;
+    color: #FFD369;
     height: 100vh;
     width: 100%;
     /* position: absolute; */
@@ -30,7 +30,7 @@ margin: 0;
   @keyframes hi-Animation{
     20%
     {
-      color: #A7C5EB;
+      color: #FFD369;
       text-shadow: none;
     }
     0% 
@@ -43,8 +43,8 @@ margin: 0;
   .h2-style {
     animation-name: name;
     animation-duration: 6s;
-    font-size: 1.8rem;
-    color: #A7C5EB;
+    font-size: 2.5rem;
+    color: #FFD369;
     font-weight: 900;
     
   
@@ -53,7 +53,7 @@ margin: 0;
   @keyframes name{
     0%
     {
-      color: #A7C5EB;
+      color: #FFD369;
       text-shadow: none;
     }
     0% 
@@ -66,50 +66,44 @@ margin: 0;
 
   
   .p-style{
-    font-size: 1rem;
-    color: #A7C5EB;
+    font-size: 1.2rem;
     
+    color: #FFD369;
+    padding-bottom: 1rem;
     
   }
 
+ 
+
 
   .download-cv{
-    background-color: #0e175fc5;
-    
-    border: solid 0.1px #A7C5EB;
-      border-radius: 5px;
-      height: 30px;
-      width: 90px;
-      
-      margin: 15px;
+    background-color: #FFD369;
+    text-decoration: none;
+    border: solid 0.1px #000000;
+    color: #000000;
+    border-radius: 5px;
+    padding: 0.3rem;
+    font-weight: bolder; 
+    margin: 1rem;
       
   }
 
   
 
-  .download-cv a {
-    text-decoration: none;
-    color: #A7C5EB;
-  }
-
-  .download-cv a:hover{
-    color: #A7C5EB;
-    
-  }
 
   .download-cv:hover{
     transform: translateY(-8%);
     background-color:transparent ;
     cursor: pointer;
     cursor: hand;
-    
+    color: #FFD369;
     box-shadow: 0px 3px 3px rgb(0, 0, 0 );
   }
 
 .lets-talk{
-color:#A7C5EB ;
+color:#FFD369;
 background-color: transparent;
-border-color: #A7C5EB;
+border: solid 1px #FFD369;
 border-radius: 5px;
 height: 30px;
 width: 90px;
@@ -131,7 +125,7 @@ width: 90px;
     border-bottom-right-radius: 5px;
     box-shadow: 0px 3px 3px rgb(0, 0, 0 );
     width: 250px;
-    margin-top: 50px;
+    margin-top: 1rem;
     filter: grayscale(100%);
     transition: all 1s;
 }
