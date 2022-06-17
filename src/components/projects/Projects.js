@@ -16,88 +16,126 @@ const Projects = () => {
       <div className="projects-container">
         <div className="cards-projects">
           <motion.div
-            animate={{ x: [0, 10, 0] }}
-            transition={{ ease: "easeOut", duration: 10, repeat: 100 }}
+            // animate={{ x: [0, 10, 0] }}
+            // transition={{ ease: "easeOut", duration: 10, repeat: 100 }}
             className="card-item"
           >
             <img src={ecommerce} alt="" />
-            <h2>Ecommerce App</h2>
-
-            <h5>Reaact JS project</h5>
-            <p>
-              This is a project made with React JS, Pure front End. Implemented
-              with Axios cosuming API and Redux
-            </p>
-            <a href="https://e-commerce-jo.netlify.app">Go to project</a>
+            <p>E-commerce front end development using React JS</p>
+            <div className="card-btn">
+              <a
+                className="github"
+                href="https://github.com/jonathanedd/e-commerce.git"
+              >
+                Github
+              </a>
+              <a className="project" href="https://e-commerce-jo.netlify.app">
+                Project
+              </a>
+            </div>
           </motion.div>
 
           <motion.div
-            animate={{ y: [0, 15, 0] }}
-            transition={{ ease: "easeOut", duration: 10, repeat: 100 }}
+            // animate={{ y: [0, 15, 0] }}
+            // transition={{ ease: "easeOut", duration: 10, repeat: 100 }}
             className="card-item"
           >
             <img src={pokedex} alt="" />
-            <h2>Pokedex App</h2>
-
-            <h5>React JS project</h5>
-            <p>
-              This is a Pokemon API project using React, Implemented with react
-              hooks. This is Front end develop
-            </p>
-            <a href="https://pokedex-app-jo.netlify.app">Go to project</a>
+            <p>Pokemon front end App consuming API with React JS</p>
+            <div className="card-btn">
+              <a
+                className="github"
+                href="https://github.com/jonathanedd/Pokedex-app.git"
+              >
+                Github
+              </a>
+              <a className="project" href="https://pokedex-app-jo.netlify.app">
+                Project
+              </a>
+            </div>
           </motion.div>
 
           <motion.div
-            animate={{ x: [0, 16, 0] }}
-            transition={{ ease: "easeOut", duration: 10, repeat: 100 }}
+            // animate={{ x: [0, 16, 0] }}
+            // transition={{ ease: "easeOut", duration: 10, repeat: 100 }}
             className="card-item"
           >
             <img src={rick} alt="" />
-            <h2>Rick and Morty App</h2>
-
-            <h5>React JS project</h5>
-            <p>
-              This is a Pokemon API project using React, Implemented with react
-              hooks. This is Front end develop
-            </p>
-            <a href="https://rick-and-morty-app-jo.netlify.app">
-              Go to project
-            </a>
+            <p>The amazing World of Rick & Morty API</p>
+            <div className="card-btn">
+              <a
+                className="github"
+                href="https://github.com/jonathanedd/Rick-and-Morty.git"
+              >
+                Github
+              </a>
+              <a
+                className="project"
+                href="https://rick-and-morty-app-jo.netlify.app"
+              >
+                Project
+              </a>
+            </div>
           </motion.div>
 
           <div className="card-item">
             <img src={crud} alt="" />
-            <h2>Crud</h2>
-            <h5>React JS project</h5>
             <p>
               This is a Pokemon API project using React, Implemented with react
               hooks. This is Front end develop
             </p>
-            <a href="https://crud-form-jo.netlify.app">Go to project</a>
+            <div className="card-btn">
+              <a
+                className="github"
+                href="https://github.com/jonathanedd/crude.git"
+              >
+                Github
+              </a>
+              <a className="project" href="https://crud-form-jo.netlify.app">
+                Project
+              </a>
+            </div>
           </div>
 
           <div className="card-item">
             <img src={weather} alt="" />
-            <h2>Weather App</h2>
-            <h5>React JS project</h5>
             <p>
               This is a Pokemon API project using React, Implemented with react
               hooks. This is Front end develop
             </p>
-            <a href="https://weather-app-jo.netlify.app">Go to project</a>
+            <div className="card-btn">
+              <a
+                className="github"
+                href="https://github.com/jonathanedd/weather-app.git"
+              >
+                Github
+              </a>
+              <a className="project" href="https://weather-app-jo.netlify.app">
+                Project
+              </a>
+            </div>
           </div>
 
           <div className="card-item">
             <img src={quotes} alt="" />
-            <h2>Quotes</h2>
-            <h5>React JS project</h5>
             <p>
               This is a Pokemon API project using React, Implemented with react
               hooks. This is Front end develop
             </p>
-            <a href="https://quote-random-jonathan-ordonez.netlify.app">
-              Go to project
-            </a>
+            <div className="card-btn">
+              <a
+                className="github"
+                href="https://github.com/jonathanedd/quotes.js.git"
+              >
+                Github
+              </a>
+              <a
+                className="project"
+                href="https://quote-random-jonathan-ordonez.netlify.app"
+              >
+                Project
+              </a>
+            </div>
           </div>
         </div>
       </div>

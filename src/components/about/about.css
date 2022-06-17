@@ -61,7 +61,7 @@
 
 .about-card{
     color: #a7c5eb ;
-    background-color: #2e0249a4;
+    background-color: #0e175fc5;
     border: solid 0.5px #A7C5EB;
     border-radius: 1rem;
     padding: 2rem;
@@ -114,7 +114,7 @@
     border-radius: 0.5rem;
     border: solid 0.1px #A7C5EB;
     color: #a7c5eb;
-    background-color: #2e0249b6;
+    background-color: #0e175fc5;
     transition: all ease 0.5s;
     padding-top: 0.5rem;
 }
