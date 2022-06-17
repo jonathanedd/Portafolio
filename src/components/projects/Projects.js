@@ -80,10 +80,7 @@ const Projects = () => {
 
           <div className="card-item">
             <img src={crud} alt="" />
-            <p>
-              This is a Pokemon API project using React, Implemented with react
-              hooks. This is Front end develop
-            </p>
+            <p>Crud project with React, and React hooks</p>
             <div className="card-btn">
               <a
                 className="github"
@@ -100,8 +97,7 @@ const Projects = () => {
           <div className="card-item">
             <img src={weather} alt="" />
             <p>
-              This is a Pokemon API project using React, Implemented with react
-              hooks. This is Front end develop
+              Weather App consuming API that shows Temperature in your location
             </p>
             <div className="card-btn">
               <a
@@ -118,10 +114,7 @@ const Projects = () => {
 
           <div className="card-item">
             <img src={quotes} alt="" />
-            <p>
-              This is a Pokemon API project using React, Implemented with react
-              hooks. This is Front end develop
-            </p>
+            <p>React first project that shows random famous phrases</p>
             <div className="card-btn">
               <a
                 className="github"
