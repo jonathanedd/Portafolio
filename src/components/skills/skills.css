@@ -6,13 +6,14 @@
 }
 
 #skills h5 {
-    color: #000;
+    color: #FFD369;
     padding-bottom: 1rem;
+    
     
 }
 
 #skills h2 {
-    color:#A7C5EB;
+    color:#FFD369;
     padding-bottom: 2rem;
 }
 
@@ -35,8 +36,8 @@
     overflow: hidden;
     width: 30%;
     border-radius: 2rem;
-    border: solid 0.1px #A7C5EB;
-    background-color: #0e175f7c;
+    border: solid 0.1px #FFD369;
+    background-color: #393e4650;
 
 }
 @media only screen and (max-width: 600px){
@@ -86,8 +87,8 @@
 
 
 .item-name{
-    color: #A7C5EB;
-    font-size: 2.5rem;
+    color: #FFD369;
+    font-size: 2rem;
     padding-left: 2rem;
     text-shadow: 0px 5px 5px rgb(0, 0, 0 );
 }

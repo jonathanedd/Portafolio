@@ -15,7 +15,7 @@
     padding-top: 3rem;
 }
 .section h2{
-    color: #a7c5eb;
+    color: #FFD369;
     padding-bottom: 3rem;
 }
 
@@ -60,12 +60,13 @@
 }
 
 .about-card{
-    color: #a7c5eb ;
-    background-color: #0e175fc5;
-    border: solid 0.5px #A7C5EB;
+    color: #000000;
+    background-color: #FFD369;
+    border: solid 2px #000000;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    box-shadow: 0px 9px 9px rgb(0, 0, 0);
 }
 
 
@@ -80,8 +81,8 @@
     transition: all 0.5s;
     box-shadow: 0px 3px 3px rgb(0, 0, 0);
     background: transparent;
-    color: #a7c5eb;
-    border: 1px solid #a7c5eb;
+    color: #FFD369;
+    border: 1px solid #FFD369;
 }
 
 .about-icon{
@@ -102,7 +103,7 @@
 .about-content p{
     margin:  2rem 0 2.6rem;
     text-align: left;
-    color: #a7c5eb;
+    color: #FFD369;
     
 }
 
@@ -112,9 +113,10 @@
     width: 5rem;
     height: 2rem;
     border-radius: 0.5rem;
-    border: solid 0.1px #A7C5EB;
-    color: #a7c5eb;
-    background-color: #0e175fc5;
+    border: solid 0.1px #000000;
+    color: #000000;
+    font-weight: bolder;
+    background-color: #FFD369;
     transition: all ease 0.5s;
     padding-top: 0.5rem;
 }
@@ -123,7 +125,7 @@
     background-color: transparent;
     transform: translateY(-5%);
     transition: all ease 0.5s;
-    border: #a7c5eb;
+    border: #FFD369;
     
 }
 
@@ -134,8 +136,8 @@
     }
 
 .about-content a:hover{
-        color: #a7c5eb;
-        border: 0.5px solid #a7c5eb;
+        color: #FFD369;
+        border: 0.5px solid #FFD369;
         box-shadow: 0px 3px 3px rgb(0, 0, 0);
     }
 

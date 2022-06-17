@@ -18,11 +18,11 @@ const images = [
     technology: css,
   },
   {
-    name: "React JS",
+    name: "React",
     technology: react,
   },
   {
-    name: "Node JS",
+    name: "Node",
     technology: node,
   },
 ];

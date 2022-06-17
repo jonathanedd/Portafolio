@@ -1,9 +1,9 @@
 .App {
   text-align: center;
   
-  background-color: #363062;
+  background-color: #040303;
   font-family: 'Nunito', sans-serif;
-  background-image: repeating-linear-gradient(90deg, rgba(255,255,255, 0.1), rgba(255,255,255, 0.1) 0.1px, transparent 0.1px, transparent 1px);
+  background-image: repeating-linear-gradient(90deg, rgba(240, 236, 10, 0.021), rgb(17, 17, 17) 0.1px, transparent 0.1px, transparent 1px);
 }
 
 

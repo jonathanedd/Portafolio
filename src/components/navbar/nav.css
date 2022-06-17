@@ -15,7 +15,7 @@ nav{
 }
 
 nav a{
-    color: aliceblue;
+    color: #FFD369;
     background: transparent;
     padding: 0.8rem;
     border-radius: 50%;
@@ -29,6 +29,6 @@ nav a:hover{
 }
 
 nav a.active{
-    background: #0e175fc5;
-    color: aliceblue;
+    background: #FFD369;
+    color: #000000;
 }
