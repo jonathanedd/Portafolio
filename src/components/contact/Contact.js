@@ -24,8 +24,8 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact_section">
-      <h5>Get in touch</h5>
-      <h2>Contact me</h2>
+      <h5 className="small-title">Get in touch</h5>
+      <h2 className="big-title">Contact me</h2>
 
       <div className="container contact_container">
         <div className="contact_options">
@@ -33,7 +33,7 @@ const Contact = () => {
             <AiTwotoneMail className="contact_icon" />
             <h4>Email</h4>
             <h5>jhoeduardonez@gmail.com</h5>
-            <a href="mailto:jhoeduardonez@gmail.com" target="_blank">
+            <a href="mailto:jhoeduardonez@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -45,6 +45,7 @@ const Contact = () => {
             <a
               href="https://m.me/profile.php?id=100004466837706"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>
@@ -57,6 +58,7 @@ const Contact = () => {
             <a
               href="https://web.whatsapp.com/send?phone+573172899381"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>

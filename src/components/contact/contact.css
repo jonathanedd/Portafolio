@@ -3,6 +3,16 @@
     padding-top: 10rem;
 }
 
+.small-title {
+    color: #FFD369;
+    font-weight: lighter;
+}
+
+.big-title{
+    color: #FFD369;
+    font-weight: lighter;
+}
+
 .container.contact_container {
     width:  58%;
     display: grid;
@@ -18,19 +28,21 @@
 }
 
 .contact_option {
-    background-color: gray;
+    background-color: #FFD369;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid yellow;
+    border: 1px solid #000000;
     transition: all 0.8s;
-    color: yellow;
+    color: #000000;
+    font-weight: lighter;
 }
 
 .contact_option:hover{
     background-color: transparent;
-    color: yellow;
+    color: #FFD369;
     transform: translateY(-5%);
+    border: 1px solid #FFD369;
 }
 
 .contact_icon {
@@ -39,12 +51,19 @@
 
 }
 
+
+
 .contact_option a {
+    text-decoration: none;
     margin-top: 0.7rem;
     display: inline-block;
-    font-size: 0.8rem ;
+    font-size: 1rem ;
+    color: #393E46;
 }
 
+.contact_option a:hover{
+    color: #FFD369;
+}
 
 /*  FORM  */
 
@@ -60,9 +79,9 @@ input, textarea{
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid yellow;
+    border: 0.5px solid #FFD369;
     resize: none;
-    color: yellow;
+    color: #ffF;
 }
 
 /* QUERIES */
@@ -86,3 +105,4 @@ input, textarea{
         margin-top: 0;
     }
 }
+

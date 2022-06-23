@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Nav from "./components/navbar/Nav";
 import Skills from "./components/skills/Skills";
 import Projects from "./components/projects/Projects";
-import Experience from "./components/experience/Experience";
+// import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import About from "./components/about/About";

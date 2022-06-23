@@ -1,20 +1,23 @@
 #footer{
-    height: 40vh;
-    background-color: #000000;
-}
-
-.footer {
-    height: 150px;
-    width: 100%;
-    background-color: #082032 ;
-    color: #F05454;
-    text-align: center;
+    /* height: 15rem; */
     
 }
 
+.footer {
+    height: 17rem;
+    width: 50%;
+    margin: auto;
+    border-top: solid 1px #FFD369;
+    color: #FFD369;
+    text-align: center;
+    /* background-color: #000000; */
+}
+
 .footer h3 {
-    padding-top: 30px;
+    padding-top: 1rem;
     font-size: 1rem;
+    color: #FFD369;
+    font-weight: lighter;
 }
 
 .social-follow ul  {
@@ -26,15 +29,17 @@
 .social-follow ul li{
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 3rem;
 }
 
 .social-icon{
-    color:#F05454;
+    color:#FFD369;
 }
 
 
 .footer h4{
-    padding-top: 20px;
+    padding-top: 1rem;
     font-size: 0.8rem;
+    color: #FFD369;
+    font-weight: lighter;
 }

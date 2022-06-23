@@ -7,7 +7,7 @@ import {
   FaUser,
   FaNetworkWired,
   FaProjectDiagram,
-  FaMedal,
+  // FaMedal,
 } from "react-icons/fa";
 
 import { MdEmail } from "react-icons/md";
