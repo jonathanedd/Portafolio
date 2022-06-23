@@ -1,6 +1,6 @@
-#contact{
+.contact_section{
     height: 100vh;
-    
+    padding-top: 10rem;
 }
 
 .container.contact_container {
@@ -49,6 +49,7 @@
 /*  FORM  */
 
 form{
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -60,4 +61,28 @@ input, textarea{
     border-radius: 0.5rem;
     background: transparent;
     border: 2px solid yellow;
+    resize: none;
+    color: yellow;
+}
+
+/* QUERIES */
+
+@media screen and (max-width:1024px){
+    .container.contact_container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container.contact_container{
+        height: 100vh;
+        width: 90%;
+        margin: auto;
+    }
+
+    form {
+        width: 85%;
+        margin-top: 0;
+    }
 }

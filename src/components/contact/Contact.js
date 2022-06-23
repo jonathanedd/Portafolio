@@ -3,10 +3,27 @@ import "../contact/contact.css";
 import { AiTwotoneMail } from "react-icons/ai";
 import { FaFacebookMessenger } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_8sqtb69",
+      "template_61j7hkm",
+      form.current,
+      "Kw7BPbVgvHBCp_QOI"
+    );
+
+    e.target.reset();
+  };
+
   return (
-    <section id="contact">
+    <section id="contact" className="contact_section">
       <h5>Get in touch</h5>
       <h2>Contact me</h2>
 
@@ -22,7 +39,7 @@ const Contact = () => {
           </article>
 
           <article className="contact_option">
-            <FaFacebookMessenger className="contact_icon"/>
+            <FaFacebookMessenger className="contact_icon" />
             <h4>Messenger</h4>
             <h5>jhoeduardonez@gmail.com</h5>
             <a
@@ -34,7 +51,7 @@ const Contact = () => {
           </article>
 
           <article className="contact_option">
-            <RiWhatsappFill className="contact_icon"/>
+            <RiWhatsappFill className="contact_icon" />
             <h4>Whatsapp</h4>
             <h5>+573172899381</h5>
             <a
@@ -45,10 +62,22 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
-          <input type="text" name='name' placeholder="your full name" required />
-          <input type="text" name='email' placeholder="your email" required />
-          <textarea name="message"  rows="7" placeholder="Your message"></textarea>
+        <form ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="name"
+            placeholder="your full name"
+            required
+          />
+          <input type="text" name="email" placeholder="your email" required />
+          <textarea
+            name="message"
+            rows="7"
+            placeholder="Your message"
+          ></textarea>
+          <button type="submit" className="btn btn-primary">
+            Send
+          </button>
         </form>
       </div>
     </section>

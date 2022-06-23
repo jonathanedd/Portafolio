@@ -49,13 +49,13 @@ const Nav = () => {
         <FaProjectDiagram />
       </a>
 
-      <a
+      {/* <a
         onClick={() => setActiveNav("#experience")}
         className={activeNav === "#experience" ? "active" : ""}
         href="#experience"
       >
         <FaMedal />
-      </a>
+      </a> */}
 
       <a
         onClick={() => setActiveNav("#contact")}
