@@ -6,7 +6,7 @@ import { FaMedal, FaProjectDiagram, FaNetworkWired } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className="section" id="about">
+    <section className="section-about" id="about">
       <h5>Get to know</h5>
       <h2>About me</h2>
 

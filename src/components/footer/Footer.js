@@ -25,7 +25,7 @@ const Footer = () => {
         </ul>
       </div>
       <h3>Jhonatan Ordonez</h3>
-      <h4>Academlo 2022</h4>
+      <h4>2023</h4>
     </section>
   );
 };
